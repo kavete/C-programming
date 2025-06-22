@@ -3,21 +3,21 @@
 
 int age =4;
 int month = 6;
-void loop() {
-switch(month) {
-    case 1:
-        /* code */
-        printf("Njaanuary \n");
-        break;
-    case 2:
+void loops() {
+    switch(month) {
+        case 1:
+            
+            printf("Njaanuary \n");
+            break;
+        case 2:
 
-        printf("Shorty \n");
-        break;
-    case 12: 
-        printf("Make Merry and Party!\n");
-    default:
-        printf("Nobody cares\n");
-        break;
+            printf("Shorty \n");
+            break;
+        case 12: 
+            printf("Make Merry and Party!\n");
+        default:
+            printf("Nobody cares\n");
+            break;
     }
     
     while (age > 3 && age < 70) {

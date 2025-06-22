@@ -2,5 +2,6 @@
 #define ARRAYS_H
 
 void arrays();
+void strings();
 
 #endif

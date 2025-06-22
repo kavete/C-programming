@@ -52,6 +52,7 @@ int main() {
     
     loops();
     arrays();
+    strings();
     
     return 0;
 }
