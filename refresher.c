@@ -2,6 +2,7 @@
 #include <stdbool.h>
 #include "arrays.h"
 #include "loops.h"
+#include "memory.h"
 
 
 int main() {
@@ -53,6 +54,7 @@ int main() {
     loops();
     arrays();
     strings();
+    memory();
     
     return 0;
 }
