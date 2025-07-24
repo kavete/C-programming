@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-void arrays() {
+void strings();
+
+int main() {
 
     int numbers[] = {1, 2, 3, 5};
     printf("%d\n", numbers[0]);
@@ -57,7 +59,8 @@ void arrays() {
             printf("%d\n", matrix[i][j]);
         }
     }
-    
+    strings();
+    return 0;    
 }
 
 void strings() {
